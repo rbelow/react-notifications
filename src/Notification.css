@@ -1,0 +1,24 @@
+.Info {
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+  margin: 10px 0 0;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  transform: translate3d(0px, 0px, 0px);
+  will-change: transform, opacity;
+  background: #ADEBFC;
+  color: #2E6C7D; /* 50% darker http://www.hexcolortool.com */
+}
+
+.Alert {
+  background: #FBF06C;
+  color: #7C7100; /* 50% darker http://www.hexcolortool.com */
+}
+
+.Warning {
+  background: #E26F53;
+  color: #630000; /* 50% darker http://www.hexcolortool.com */
+}
